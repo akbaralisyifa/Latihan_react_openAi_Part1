@@ -2,7 +2,7 @@ import { Configuration, OpenAIApi } from 'openai';
 import { useState } from 'react';
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '',
   dangerouslyAllowBrowser: true,
 });
 const openai = new OpenAIApi(configuration);
