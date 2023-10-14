@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 const configuration = new Configuration({
   apiKey: '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',
+  dangerouslyAllowBrowser: true,
 });
 const openai = new OpenAIApi(configuration);
 
